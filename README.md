@@ -9,10 +9,10 @@
 Entries from house.speakingsame.com are collected with [scrape.py](https://github.com/telhc/Perth-House-Price-Prediction/blob/master/scrape.py) and saved to data/
 
 ## Combining With Geospatial Data
-[gnafparse.py]() combines geospatial data obtained from data.gov.au
+[gnafparse.py](https://github.com/telhc/Perth-House-Price-Prediction/blob/master/gnafparse.py) combines geospatial data obtained from data.gov.au
 
 ## Exploratory Data Analysis & Proximity Analysis
-[EDA&Enrichment.ipynb]() explores correlation between property features and its respective sold price. As well as calculating average neighbourhood features by using geospatial data collected earlier.
+[EDA&Enrichment.ipynb](https://github.com/telhc/Perth-House-Price-Prediction/blob/master/EDA%26Enrichment.ipynb) explores correlation between property features and its respective sold price. As well as calculating average neighbourhood features by using geospatial data collected earlier.
 
 ## Prediction
 [prediction.py](https://github.com/telhc/Perth-House-Price-Prediction/blob/master/prediction.py)
