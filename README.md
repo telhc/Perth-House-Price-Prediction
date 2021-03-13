@@ -4,7 +4,6 @@
 * Processing of text data using regex and pandas
 * Geospatial and proximity analysis with the help of [G-NAF](https://data.gov.au/data/dataset/geocoded-national-address-file-g-naf) dataset to predict house price based on neighbourhood property sales
 * Optimized Linear, Lasso, and Random Forest Regressors using GridSearchCV to conclude the best model
-![](https://github.com/telhc/telhc/blob/main/images/perth_geo.png)
 
 ## Data Collection / Web Scraping
 Entries from house.speakingsame.com are collected with [scrape.py](https://github.com/telhc/Perth-House-Price-Prediction/blob/master/scrape.py) and saved to data/
