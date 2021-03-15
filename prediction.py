@@ -144,7 +144,7 @@ rf_model_scores = -1 * cross_val_score(rf_model, X, y, cv=5, scoring='neg_mean_a
 rf_model_scores.mean()
 
 from sklearn.model_selection import GridSearchCV
-params = {"n_estimators": range(1,100,10), "criterion": ("mse", "mae"), "max_features": ("sqrt", "log2")}
+params = {"n_estimators": range(1,100,10), "criterion": ("mse", "mae"), "max_features": ("sqrt", "log2"), "max_depth": range(130,170,10), "max_leaf_nodes": range(130,170,10)}
 gs = GridSearchCV(rf_model, params, scoring='neg_mean_absolute_error', cv=5, verbose=1)
 gs.fit(X_train, y_train)
 gs.best_estimator_
