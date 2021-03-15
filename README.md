@@ -16,4 +16,4 @@ Entries from house.speakingsame.com are collected with [scrape.py](https://githu
 
 ## Prediction
 [prediction.py](https://github.com/telhc/Perth-House-Price-Prediction/blob/master/prediction.py)
-Use GridSearchCV and SciKit-Learn and StatsModels to optimize Linear, Lasso, XGB and Random Forest Regressors to conclude the best model with a mean absolute error of $145K.
+Use GridSearchCV and SciKit-Learn and StatsModels to optimize Linear, Lasso, XGB and Random Forest Regressors to conclude the best model with a mean absolute error of $130K.
